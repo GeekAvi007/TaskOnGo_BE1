@@ -1,4 +1,5 @@
-const {body, validationResult } = require(express-validator)
+
+const {body, validationResult } = require('express-validator')
 
 exports.noteValidate = [
     body('title')
